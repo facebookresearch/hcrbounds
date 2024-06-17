@@ -730,7 +730,7 @@ for iter in range(2):
         else:
             print(f'unfiltered hist[{ind}] = \n{hist[ind]}')
     # Plot histograms of the best bounds.
-    plt.figure(figsize=(5.5, 5.5))
+    plt.figure(figsize=(3, 3))
     title = name + ' '
     if iter == 0:
         title += 'unfiltered'
